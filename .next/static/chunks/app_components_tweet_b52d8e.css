@@ -1,0 +1,80 @@
+/* [project]/app/components/tweet.css [app-client] (css) */
+.tweet .react-tweet-theme {
+  --tweet-container-margin: 0;
+  --tweet-font-family: inherit;
+  --tweet-font-color: inherit;
+  --tweet-bg-color: #fff;
+  --tweet-bg-color-hover: var(--tweet-bg-color);
+  --tweet-color-blue-secondary: #4b5563;
+  --tweet-color-blue-secondary-hover: #f3f4f6;
+  --tweet-font-color-secondary: #6b7280;
+  --tweet-quoted-bg-color-hover: rgba(0, 0, 0, 0.03);
+  --tweet-border: 1px solid rgb(207, 217, 222);
+  --tweet-skeleton-gradient: linear-gradient(
+    270deg,
+    #fafafa,
+    #eaeaea,
+    #eaeaea,
+    #fafafa
+  );
+  --tweet-color-red-primary: rgb(249, 24, 128);
+  --tweet-color-red-primary-hover: rgba(249, 24, 128, 0.1);
+  --tweet-color-green-primary: rgb(0, 186, 124);
+  --tweet-color-green-primary-hover: rgba(0, 186, 124, 0.1);
+  --tweet-twitter-icon-color: var(--tweet-font-color);
+  --tweet-verified-old-color: rgb(130, 154, 171);
+  --tweet-verified-blue-color: var(--tweet-color-blue-primary);
+  --tweet-actions-font-weight: 500;
+  --tweet-replies-font-weight: 500;
+}
+@media (prefers-color-scheme: dark) {
+  .tweet .react-tweet-theme {
+    --tweet-bg-color: #222;
+    --tweet-bg-color-hover: var(--tweet-bg-color);
+    --tweet-quoted-bg-color-hover: rgba(255, 255, 255, 0.03);
+    --tweet-border: 1px solid #333;
+    --tweet-color-blue-secondary: #fff;
+    --tweet-color-blue-secondary-hover: #333;
+    --tweet-font-color-secondary: #9ca3af;
+  }
+}
+.tweet .react-tweet-theme p {
+  font-size: inherit;
+  line-height: 1.3rem;
+}
+.tweet .react-tweet-theme p a {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219/ var(--tw-border-opacity));
+  transition-property: border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+@media (hover: hover) and (pointer: fine) {
+  .tweet .react-tweet-theme p a:hover {
+    --tw-border-opacity: 1;
+    border-color: rgb(75 85 99/ var(--tw-border-opacity));
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .tweet .react-tweet-theme p a {
+    --tw-border-opacity: 1;
+    border-color: rgb(107 114 128/ var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/ var(--tw-text-opacity));
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .tweet .react-tweet-theme p a:hover {
+      --tw-border-opacity: 1;
+      border-color: rgb(255 255 255/ var(--tw-border-opacity));
+    }
+  }
+}
+.tweet .react-tweet-theme p a:hover {
+  text-decoration: none;
+}
+.tweet a div {
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+/*# sourceMappingURL=app_components_tweet_b52d8e.css.map*/

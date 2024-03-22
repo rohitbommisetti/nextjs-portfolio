@@ -3,9 +3,9 @@ import { getGuestbookEntries } from 'app/db/queries';
 import { SignIn, SignOut } from './buttons';
 import { Suspense } from 'react';
 import Form from './form';
-
+import Link from 'next/link';
 export const metadata = {
-  title: 'Guestbook',
+  title: 'Investments',
   description: 'Sign my guestbook and leave your mark.',
 };
 
@@ -13,13 +13,13 @@ export default function GuestbookPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        sign my guestbook
+        investments
       </h1>
-      <Suspense>
-        <GuestbookForm />
-        <GuestbookEntries />
-      </Suspense>
-    </section>
+      <p className="prose prose-neutral dark:prose-invert">
+      coming soon!
+      </p>
+      
+      </section>
   );
 }
 

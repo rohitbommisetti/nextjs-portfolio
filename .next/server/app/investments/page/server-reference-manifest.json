@@ -1,0 +1,85 @@
+{
+  "node": {
+    "2a2e4e9408c9895a944d15ddab0196de4839f2f4": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "8f0a957b19a633e38ccb235ab590892e56417cb4": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "09f296c9964f25670a5804d2e4bd0cfcd34ae4d5": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "81032f287b1bab800a20536bdf12c31154d79a2f": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "88ba9e701a26e50933f07e042a1d9d084c1a182e": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "ab28eb9e5362901aab321e99258e9ed55da05ef7": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "bfab398ee914230f4af4ec0de4c275c779eef557": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "rsc"
+      }
+    },
+    "096d106bb0d19a2a574fcf7f8aafa6db977292e0": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "actionBrowser"
+      }
+    },
+    "8c45fb801f5c790e9292ce24236942334cf56c32": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "actionBrowser"
+      }
+    },
+    "635d9046ad45cf764fd7783f195b8bdf9b5802f8": {
+      "workers": {
+        "app/investments/page": "[project]/.next-internal/server/app/investments/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)"
+      },
+      "layer": {
+        "app/investments/page": "actionBrowser"
+      }
+    }
+  },
+  "edge": {}
+}

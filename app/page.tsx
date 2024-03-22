@@ -25,7 +25,7 @@ export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">Rohit Bommisetti</h1>
       <p className="prose prose-neutral dark:prose-invert">
-      Relentless optimism. ♾️☀️
+      Relentless optimism ☀️
       </p>
       <p className="prose prose-neutral dark:prose-invert">
       
