@@ -25,7 +25,7 @@ export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">Rohit Bommisetti</h1>
       <p className="prose prose-neutral dark:prose-invert">
-      Enchanted by agency. 🕓
+      Relentless optimism. ♾️☀️
       </p>
       <p className="prose prose-neutral dark:prose-invert">
       
@@ -36,7 +36,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>
         In the past, I have spent my time building <a href="https://colabpitt.substack.com">CoLab</a>, the community 
-        for ambitious student builders at the University of Pittsburgh, and <a href="https://inspiritai.com"> teaching AI</a> at high schools in India. 
+        for ambitious student builders at the University of Pittsburgh, and <a href="https://inspiritai.com"> teaching AI</a> with the Stanford crew in India. 
         </p>
       </div>
        {/*
