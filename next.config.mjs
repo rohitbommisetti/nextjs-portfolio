@@ -4,11 +4,7 @@ export const sql = postgres(process.env.POSTGRES_URL, {
   ssl: 'allow',
 });
 
-//const nextConfig = {
- // experimental: {
- //   ppr: true,
- //   useLightningcss: true,
- // },
+const nextConfig = {
   async redirects() {
     if (!process.env.POSTGRES_URL) {
       return [];
