@@ -5,7 +5,7 @@ import bombay from 'public/images/bombay.jpg';
 import delhi from 'public/images/delhi.jpg';
 import pennapps from 'public/images/pennapps.jpg';
 function ArrowIcon() {
-  return (
+  return (  
     <svg
       width="12"
       height="12"
