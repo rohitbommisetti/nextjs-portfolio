@@ -261,27 +261,31 @@ __turbopack_esm__({
 });
 
 })()),
-"[project]/app/blog/view-counter.tsx [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"[project]/app/auth.ts [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
-    "default": ()=>ViewCounter
+    "GET": ()=>GET,
+    "POST": ()=>POST,
+    "auth": ()=>auth
 });
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next-auth/index.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$github$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$7b$module__evaluation$7d$__ = __turbopack_import__("[project]/node_modules/next-auth/providers/github.js [app-rsc] (ecmascript) {module evaluation}");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$auth$2f$core$2f$providers$2f$github$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@auth/core/providers/github.js [app-rsc] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
-function ViewCounter({ slug, allViews }) {
-    const viewsForSlug = allViews && allViews.find((view)=>view.slug === slug);
-    const number = new Number(viewsForSlug?.count || 0);
-    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
-        className: "text-neutral-600 dark:text-neutral-400",
-        children: `${number.toLocaleString()} views`
-    }, void 0, false, {
-        fileName: "<[project]/app/blog/view-counter.tsx>",
-        lineNumber: 16,
-        columnNumber: 5
-    }, this);
-}
+;
+const { handlers: { GET, POST }, auth } = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"]({
+    providers: [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$auth$2f$core$2f$providers$2f$github$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"]({
+            clientId: process.env.OAUTH_CLIENT_KEY,
+            clientSecret: process.env.OAUTH_CLIENT_SECRET
+        })
+    ],
+    pages: {
+        signIn: '/sign-in'
+    }
+});
 
 })()),
 "[project]/app/db/postgres.ts [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
@@ -417,175 +421,157 @@ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"]("88ba9e701a26e50933f07e042a1d9d084c1a182e", getGuestbookEntries);
 
 })()),
-"[project]/app/db/blog.ts [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"[project]/app/companies/buttons.tsx (client proxy)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
-    "getBlogPosts": ()=>getBlogPosts
+    "SignIn": ()=>SignIn,
+    "SignOut": ()=>SignOut
 });
-var __TURBOPACK__external__fs__ = __turbopack_external_require__("fs", true);
-var __TURBOPACK__external__path__ = __turbopack_external_require__("path", true);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
-;
-function parseFrontmatter(fileContent) {
-    let frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
-    let match = frontmatterRegex.exec(fileContent);
-    let frontMatterBlock = match[1];
-    let content = fileContent.replace(frontmatterRegex, '').trim();
-    let frontMatterLines = frontMatterBlock.trim().split('\n');
-    let metadata = {};
-    frontMatterLines.forEach((line)=>{
-        let [key, ...valueArr] = line.split(': ');
-        let value = valueArr.join(': ').trim();
-        value = value.replace(/^['"](.*)['"]$/, '$1'); // Remove quotes
-        metadata[key.trim()] = value;
-    });
-    return {
-        metadata: metadata,
-        content
-    };
-}
-function getMDXFiles(dir) {
-    return __TURBOPACK__external__fs__["default"].readdirSync(dir).filter((file)=>__TURBOPACK__external__path__["default"].extname(file) === '.mdx');
-}
-function readMDXFile(filePath) {
-    let rawContent = __TURBOPACK__external__fs__["default"].readFileSync(filePath, 'utf-8');
-    return parseFrontmatter(rawContent);
-}
-function extractTweetIds(content) {
-    let tweetMatches = content.match(/<StaticTweet\sid="[0-9]+"\s\/>/g);
-    return tweetMatches?.map((tweet)=>tweet.match(/[0-9]+/g)[0]) || [];
-}
-function getMDXData(dir) {
-    let mdxFiles = getMDXFiles(dir);
-    return mdxFiles.map((file)=>{
-        let { metadata, content } = readMDXFile(__TURBOPACK__external__path__["default"].join(dir, file));
-        let slug = __TURBOPACK__external__path__["default"].basename(file, __TURBOPACK__external__path__["default"].extname(file));
-        let tweetIds = extractTweetIds(content);
-        return {
-            metadata,
-            slug,
-            tweetIds,
-            content
-        };
-    });
-}
-function getBlogPosts() {
-    return getMDXData(__TURBOPACK__external__path__["default"].join(process.cwd(), 'content'));
-}
+const SignIn = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"](function() {
+    throw new Error("Attempted to call SignIn() from the server but SignIn is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/app/companies/buttons.tsx", "SignIn");
+const SignOut = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"](function() {
+    throw new Error("Attempted to call SignOut() from the server but SignOut is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/app/companies/buttons.tsx", "SignOut");
 
 })()),
-"[project]/app/blog/page.tsx [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"[project]/app/companies/buttons.tsx [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$buttons$2e$tsx__$28$client__proxy$29$__ = __turbopack_import__("[project]/app/companies/buttons.tsx (client proxy)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+"TURBOPACK { transition: next-ecmascript-client-reference }";
+;
+__turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$buttons$2e$tsx__$28$client__proxy$29$__);
+
+})()),
+"[project]/app/companies/form.tsx (client proxy)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
-    "default": ()=>BlogPage,
+    "default": ()=>__TURBOPACK__default__export__
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server-edge.js [app-rsc] (ecmascript)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"](function() {
+    throw new Error("Attempted to call the default export of [project]/app/companies/form.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/app/companies/form.tsx", "default");
+
+})()),
+"[project]/app/companies/form.tsx [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$form$2e$tsx__$28$client__proxy$29$__ = __turbopack_import__("[project]/app/companies/form.tsx (client proxy)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+"TURBOPACK { transition: next-ecmascript-client-reference }";
+;
+__turbopack_export_namespace__(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$form$2e$tsx__$28$client__proxy$29$__);
+
+})()),
+"[project]/app/companies/page.tsx [app-rsc] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"use strict";
+
+__turbopack_esm__({
+    "default": ()=>GuestbookPage,
     "metadata": ()=>metadata
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$blog$2f$view$2d$counter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/blog/view-counter.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$auth$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/auth.ts [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$queries$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$blog$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/db/blog.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$buttons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/companies/buttons.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/companies/form.tsx [app-rsc] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
-;
 ;
 ;
 ;
 ;
 ;
 const metadata = {
-    title: 'Blog',
-    description: 'Read my thoughts on software development, design, and more.'
+    title: 'companies',
+    description: 'Sign my guestbook and leave your mark.'
 };
-function BlogPage() {
-    let allBlogs = __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$blog$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getBlogPosts"]();
+function GuestbookPage() {
     return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("section", {
-        children: [
-            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("h1", {
-                className: "font-medium text-2xl mb-8 tracking-tighter",
-                children: "read my blog"
-            }, void 0, false, {
-                fileName: "<[project]/app/blog/page.tsx>",
-                lineNumber: 17,
-                columnNumber: 7
-            }, this),
-            allBlogs.sort((a, b)=>{
-                if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
-                    return -1;
-                }
-                return 1;
-            }).map((post)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    className: "flex flex-col space-y-1 mb-4",
-                    href: `/blog/${post.slug}`,
-                    children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "w-full flex flex-col",
-                        children: [
-                            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                className: "text-neutral-900 dark:text-neutral-100 tracking-tight",
-                                children: post.metadata.title
-                            }, void 0, false, {
-                                fileName: "<[project]/app/blog/page.tsx>",
-                                lineNumber: 36,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Suspense"], {
-                                fallback: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                    className: "h-6"
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/blog/page.tsx>",
-                                    lineNumber: 39,
-                                    columnNumber: 35
-                                }, void 0),
-                                children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](Views, {
-                                    slug: post.slug
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/blog/page.tsx>",
-                                    lineNumber: 40,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "<[project]/app/blog/page.tsx>",
-                                lineNumber: 39,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "<[project]/app/blog/page.tsx>",
-                        lineNumber: 35,
-                        columnNumber: 13
-                    }, this)
-                }, post.slug, false, {
-                    fileName: "<[project]/app/blog/page.tsx>",
-                    lineNumber: 30,
-                    columnNumber: 11
-                }, this))
-        ]
-    }, void 0, true, {
-        fileName: "<[project]/app/blog/page.tsx>",
-        lineNumber: 16,
+        children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("h1", {
+            className: "font-medium text-2xl mb-8 tracking-tighter",
+            children: "companies"
+        }, void 0, false, {
+            fileName: "<[project]/app/companies/page.tsx>",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "<[project]/app/companies/page.tsx>",
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
-async function Views({ slug }) {
-    let views = await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$queries$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getViewsCount"]();
-    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$blog$2f$view$2d$counter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        allViews: views,
-        slug: slug
-    }, void 0, false, {
-        fileName: "<[project]/app/blog/page.tsx>",
-        lineNumber: 52,
-        columnNumber: 10
+async function GuestbookForm() {
+    let session = await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$auth$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["auth"]();
+    return session?.user ? /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "<[project]/app/companies/page.tsx>",
+                lineNumber: 29,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$buttons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SignOut"], {}, void 0, false, {
+                fileName: "<[project]/app/companies/page.tsx>",
+                lineNumber: 30,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$companies$2f$buttons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SignIn"], {}, void 0, false, {
+        fileName: "<[project]/app/companies/page.tsx>",
+        lineNumber: 33,
+        columnNumber: 5
     }, this);
+}
+async function GuestbookEntries() {
+    let entries = await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$queries$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getGuestbookEntries"]();
+    if (entries.length === 0) {
+        return null;
+    }
+    return entries.map((entry)=>/*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
+            className: "flex flex-col space-y-1 mb-4",
+            children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
+                className: "w-full text-sm break-words",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("span", {
+                        className: "text-neutral-600 dark:text-neutral-400 mr-1",
+                        children: [
+                            entry.created_by,
+                            ":"
+                        ]
+                    }, void 0, true, {
+                        fileName: "<[project]/app/companies/page.tsx>",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, this),
+                    entry.body
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/companies/page.tsx>",
+                lineNumber: 46,
+                columnNumber: 7
+            }, this)
+        }, entry.id, false, {
+            fileName: "<[project]/app/companies/page.tsx>",
+            lineNumber: 45,
+            columnNumber: 5
+        }, this));
 }
 
 })()),
-"[project]/app/blog/page.tsx [app-rsc] (ecmascript, Next.js server component)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
+"[project]/app/companies/page.tsx [app-rsc] (ecmascript, Next.js server component)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 __turbopack_esm__({
-    default: () => __turbopack_import__("[project]/app/blog/page.tsx [app-rsc] (ecmascript)"),
+    default: () => __turbopack_import__("[project]/app/companies/page.tsx [app-rsc] (ecmascript)"),
 });
 
 })()),
@@ -629,13 +615,108 @@ const __TURBOPACK__default__export__ = {
 };
 
 })()),
-"[project]/.next-internal/server/app/blog/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)": (function({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: require }) { !function() {
+"[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
+"use strict";
+
+/* __next_internal_action_entry_do_not_use__ {"096d106bb0d19a2a574fcf7f8aafa6db977292e0":"deleteGuestbookEntries","635d9046ad45cf764fd7783f195b8bdf9b5802f8":"saveGuestbookEntry","8c45fb801f5c790e9292ce24236942334cf56c32":"increment"} */ __turbopack_esm__({
+    "deleteGuestbookEntries": ()=>deleteGuestbookEntries,
+    "increment": ()=>increment,
+    "saveGuestbookEntry": ()=>saveGuestbookEntry
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/server-reference.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$app$2d$render$2f$action$2d$encryption$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/app-render/action-encryption.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$auth$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/auth.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$postgres$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/db/postgres.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/cache.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js [app-rsc] (ecmascript)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+;
+;
+;
+;
+;
+async function increment(slug) {
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["unstable_noStore"]();
+    await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$postgres$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["sql"]`
+    INSERT INTO views (slug, count)
+    VALUES (${slug}, 1)
+    ON CONFLICT (slug)
+    DO UPDATE SET count = views.count + 1
+  `;
+}
+async function getSession() {
+    let session = await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$auth$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["auth"]();
+    if (!session || !session.user) {
+        throw new Error('Unauthorized');
+    }
+    return session;
+}
+async function saveGuestbookEntry(formData) {
+    let session = await getSession();
+    let email = session.user?.email;
+    let created_by = session.user?.name;
+    if (!session.user) {
+        throw new Error('Unauthorized');
+    }
+    let entry = formData.get('entry')?.toString() || '';
+    let body = entry.slice(0, 500);
+    await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$postgres$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["sql"]`
+    INSERT INTO guestbook (email, body, created_by, created_at)
+    VALUES (${email}, ${body}, ${created_by}, NOW())
+  `;
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"]('/guestbook');
+    let data = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+            Authorization: `Bearer ${process.env.RESEND_SECRET}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            from: 'guestbook@leerob.io',
+            to: 'me@leerob.io',
+            subject: 'New Guestbook Entry',
+            html: `<p>Email: ${email}</p><p>Message: ${body}</p>`
+        })
+    });
+    let response = await data.json();
+    console.log('Email sent', response);
+}
+async function deleteGuestbookEntries(selectedEntries) {
+    let session = await getSession();
+    let email = session.user?.email;
+    if (email !== 'me@leerob.io') {
+        throw new Error('Unauthorized');
+    }
+    let selectedEntriesAsNumbers = selectedEntries.map(Number);
+    let arrayLiteral = `{${selectedEntriesAsNumbers.join(',')}}`;
+    await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$db$2f$postgres$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["sql"]`
+    DELETE FROM guestbook
+    WHERE id = ANY(${arrayLiteral}::int[])
+  `;
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"]('/admin');
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"]('/guestbook');
+}
+;
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"]([
+    increment,
+    saveGuestbookEntry,
+    deleteGuestbookEntries
+]);
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"]("8c45fb801f5c790e9292ce24236942334cf56c32", increment);
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"]("635d9046ad45cf764fd7783f195b8bdf9b5802f8", saveGuestbookEntry);
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"]("096d106bb0d19a2a574fcf7f8aafa6db977292e0", deleteGuestbookEntries);
+
+})()),
+"[project]/.next-internal/server/app/companies/page/actions.js/(ACTIONS_MODULE0)/[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)/(ACTIONS_MODULE1)/[project]/app/db/queries.tsx [app-rsc] (ecmascript) (ecmascript)": (function({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: require }) { !function() {
 
 __turbopack_export_value__({
+    '096d106bb0d19a2a574fcf7f8aafa6db977292e0': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)")).then((mod)=>(0, mod['deleteGuestbookEntries'])(...args)),
     '09f296c9964f25670a5804d2e4bd0cfcd34ae4d5': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['getVercelYouTubeSubs'])(...args)),
     '2a2e4e9408c9895a944d15ddab0196de4839f2f4': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['getViewsCount'])(...args)),
+    '635d9046ad45cf764fd7783f195b8bdf9b5802f8': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)")).then((mod)=>(0, mod['saveGuestbookEntry'])(...args)),
     '81032f287b1bab800a20536bdf12c31154d79a2f': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['$$ACTION_0'])(...args)),
     '88ba9e701a26e50933f07e042a1d9d084c1a182e': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['getGuestbookEntries'])(...args)),
+    '8c45fb801f5c790e9292ce24236942334cf56c32': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/actions.ts [app-rsc] (ecmascript, action, ecmascript)")).then((mod)=>(0, mod['increment'])(...args)),
     '8f0a957b19a633e38ccb235ab590892e56417cb4': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['getLeeYouTubeSubs'])(...args)),
     'ab28eb9e5362901aab321e99258e9ed55da05ef7': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['$$ACTION_1'])(...args)),
     'bfab398ee914230f4af4ec0de4c275c779eef557': (...args)=>Promise.resolve(__turbopack_require__("[project]/app/db/queries.tsx [app-rsc] (ecmascript)")).then((mod)=>(0, mod['getBlogViews'])(...args))
@@ -645,4 +726,4 @@ __turbopack_export_value__({
 
 };
 
-//# sourceMappingURL=_7e05c6._.js.map
+//# sourceMappingURL=_a2ef8a._.js.map
