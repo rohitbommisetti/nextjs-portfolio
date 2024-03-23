@@ -341,7 +341,7 @@ function Page() {
                             lineNumber: 32,
                             columnNumber: 171
                         }, this),
-                        ", playing volleyball, and lifting heavy weights."
+                        ", learning Muay Thai, and lifting heavy weights."
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/app/page.tsx>",
