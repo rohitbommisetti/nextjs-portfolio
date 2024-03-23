@@ -27,12 +27,11 @@ export default function Page() {
       <p className="prose prose-neutral dark:prose-invert">
       I'm a software engineer who enjoys building products and communities.
       </p>
-      <p className="prose prose-neutral dark:prose-invert">
-      
-      </p>
-      <p className="prose prose-neutral dark:prose-invert">
-     
-      </p>
+      <div className="prose prose-neutral dark:prose-invert">
+        <p>
+        In my free time, I enjoy <a href="https://curius.app/rohit-bommisetti">reading longform essays</a>, building fun <a href="/work">projects</a>, trying my culinary <a href="https://youtu.be/t_gVCzF4AyU?si=bZ-I0uHUo19dgPU8">skills</a>, playing volleyball, and lifting heavy weights. 
+        </p>
+      </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
         In the past, I have spent my time building <a href="https://colabpitt.substack.com">CoLab</a>, the community 

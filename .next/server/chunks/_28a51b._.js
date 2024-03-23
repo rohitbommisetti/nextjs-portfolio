@@ -310,18 +310,47 @@ function Page() {
                 lineNumber: 27,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
-                className: "prose prose-neutral dark:prose-invert"
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                    children: [
+                        "In my free time, I enjoy ",
+                        /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                            href: "https://curius.app/rohit-bommisetti",
+                            children: "reading longform essays"
+                        }, void 0, false, {
+                            fileName: "<[project]/app/page.tsx>",
+                            lineNumber: 32,
+                            columnNumber: 34
+                        }, this),
+                        ", building fun ",
+                        /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                            href: "/work",
+                            children: "projects"
+                        }, void 0, false, {
+                            fileName: "<[project]/app/page.tsx>",
+                            lineNumber: 32,
+                            columnNumber: 122
+                        }, this),
+                        ", trying my culinary ",
+                        /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                            href: "https://youtu.be/t_gVCzF4AyU?si=bZ-I0uHUo19dgPU8",
+                            children: "skills"
+                        }, void 0, false, {
+                            fileName: "<[project]/app/page.tsx>",
+                            lineNumber: 32,
+                            columnNumber: 171
+                        }, this),
+                        ", playing volleyball, and lifting heavy weights."
+                    ]
+                }, void 0, true, {
+                    fileName: "<[project]/app/page.tsx>",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "<[project]/app/page.tsx>",
                 lineNumber: 30,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
-                className: "prose prose-neutral dark:prose-invert"
-            }, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -334,7 +363,7 @@ function Page() {
                             children: "CoLab"
                         }, void 0, false, {
                             fileName: "<[project]/app/page.tsx>",
-                            lineNumber: 38,
+                            lineNumber: 37,
                             columnNumber: 52
                         }, this),
                         ", the community for ambitious student builders at the University of Pittsburgh, and ",
@@ -343,19 +372,19 @@ function Page() {
                             children: " teaching AI"
                         }, void 0, false, {
                             fileName: "<[project]/app/page.tsx>",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 77
                         }, this),
                         " with the Stanford crew in India."
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/app/page.tsx>",
-                    lineNumber: 37,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/app/page.tsx>",
-                lineNumber: 36,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -364,12 +393,12 @@ function Page() {
                     children: "I'm incredibly passionate about using technology to build a better future."
                 }, void 0, false, {
                     fileName: "<[project]/app/page.tsx>",
-                    lineNumber: 43,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/app/page.tsx>",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("ul", {
@@ -384,7 +413,7 @@ function Page() {
                             children: [
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](ArrowIcon, {}, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 105,
+                                    lineNumber: 104,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -392,18 +421,18 @@ function Page() {
                                     children: "follow me"
                                 }, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 106,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "<[project]/app/page.tsx>",
-                            lineNumber: 99,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "<[project]/app/page.tsx>",
-                        lineNumber: 98,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("li", {
@@ -415,7 +444,7 @@ function Page() {
                             children: [
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](ArrowIcon, {}, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 116,
+                                    lineNumber: 115,
                                     columnNumber: 14
                                 }, this),
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -423,18 +452,18 @@ function Page() {
                                     children: "get email updates"
                                 }, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 117,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "<[project]/app/page.tsx>",
-                            lineNumber: 110,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "<[project]/app/page.tsx>",
-                        lineNumber: 109,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("li", {
@@ -446,7 +475,7 @@ function Page() {
                             children: [
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](ArrowIcon, {}, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 127,
+                                    lineNumber: 126,
                                     columnNumber: 14
                                 }, this),
                                 /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -454,24 +483,24 @@ function Page() {
                                     children: "my resume"
                                 }, void 0, false, {
                                     fileName: "<[project]/app/page.tsx>",
-                                    lineNumber: 128,
+                                    lineNumber: 127,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "<[project]/app/page.tsx>",
-                            lineNumber: 121,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "<[project]/app/page.tsx>",
-                        lineNumber: 120,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/page.tsx>",
-                lineNumber: 97,
+                lineNumber: 96,
                 columnNumber: 7
             }, this)
         ]
