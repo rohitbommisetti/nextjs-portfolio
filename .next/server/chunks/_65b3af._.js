@@ -122,16 +122,21 @@ const metadata = {
     metadataBase: new URL('https://bommisetti.org'),
     title: {
         default: 'Rohit Bommisetti',
-        template: '%s | Lee Robinson'
+        template: '%s | Rohit Bommmisetti'
     },
     description: 'Developer, writer, and creator.',
     openGraph: {
+        url: 'https://bommisetti.org',
+        type: 'website',
         title: 'Rohit Bommisetti',
         description: 'Software engineer who loves to build products.',
-        url: 'https://bommisetti.org',
-        siteName: 'Rohit Bommisetti',
-        locale: 'en_US',
-        type: 'website'
+        images: [
+            {
+                url: 'https://opengraph.b-cdn.net/production/documents/a58acde8-2896-4356-be32-895df61b63c2.jpg?token=wk0STYgxx0Gd12jaMGDccu9JLY8CXQ50oh_1_P0Iw3Q&height=900&width=1200&expires=33247162807',
+                width: 1200,
+                height: 900
+            }
+        ]
     },
     robots: {
         index: true,
@@ -145,12 +150,19 @@ const metadata = {
         }
     },
     twitter: {
-        title: 'Lee Robinson',
-        card: 'summary_large_image'
+        card: 'summary_large_image',
+        title: 'Rohit Bommisetti',
+        description: 'Software engineer who loves to build products.',
+        images: [
+            'https://opengraph.b-cdn.net/production/documents/a58acde8-2896-4356-be32-895df61b63c2.jpg?token=wk0STYgxx0Gd12jaMGDccu9JLY8CXQ50oh_1_P0Iw3Q&height=900&width=1200&expires=33247162807'
+        ]
     },
     verification: {
         google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
         yandex: '14d2e73487fa6c71'
+    },
+    icons: {
+        icon: '/app/favicon.ico'
     }
 };
 const cx = (...classes)=>classes.filter(Boolean).join(' ');
@@ -162,12 +174,12 @@ function RootLayout({ children }) {
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("head", {
                 children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$blog$2f5b$slug$5d2f$sandpack$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SandpackCSS"], {}, void 0, false, {
                     fileName: "<[project]/app/layout.tsx>",
-                    lineNumber: 63,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/app/layout.tsx>",
-                lineNumber: 62,
+                lineNumber: 74,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("body", {
@@ -177,35 +189,35 @@ function RootLayout({ children }) {
                     children: [
                         /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$nav$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                             fileName: "<[project]/app/layout.tsx>",
-                            lineNumber: 67,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         children,
                         /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$react$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                             fileName: "<[project]/app/layout.tsx>",
-                            lineNumber: 69,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$speed$2d$insights$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SpeedInsights"], {}, void 0, false, {
                             fileName: "<[project]/app/layout.tsx>",
-                            lineNumber: 70,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/app/layout.tsx>",
-                    lineNumber: 66,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/app/layout.tsx>",
-                lineNumber: 65,
+                lineNumber: 77,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<[project]/app/layout.tsx>",
-        lineNumber: 54,
+        lineNumber: 66,
         columnNumber: 5
     }, this);
 }
@@ -395,7 +407,7 @@ __turbopack_esm__({
 })()),
 "[project]/app/favicon.ico [app-rsc] (static)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/favicon.485dedba.ico");
+__turbopack_export_value__("/_next/static/media/favicon.736af45f.ico");
 })()),
 "[project]/app/favicon.ico.mjs/(IMAGE)/[project]/app/favicon.ico [app-rsc] (static) (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, p: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";
@@ -408,8 +420,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$5b$a
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$favicon$2e$ico__$5b$app$2d$rsc$5d$__$28$static$29$__["default"],
-    width: 32,
-    height: 32
+    width: 48,
+    height: 48
 };
 
 })()),

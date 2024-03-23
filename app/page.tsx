@@ -38,11 +38,11 @@ export default function Page() {
         for ambitious student builders at the University of Pittsburgh, and <a href="https://inspiritai.com"> teaching AI</a> with the Stanford crew in India. 
         </p>
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
+      {/*<div className="prose prose-neutral dark:prose-invert">
         <p>
         I'm incredibly passionate about using technology to build a better future.  
         </p>
-      </div>
+      </div>  */}
        {/*
       <div className="prose prose-neutral dark:prose-invert">
         <p>
