@@ -8,6 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
+  
   metadataBase: new URL('https://bommisetti.org'),
   title: {
     default: 'Rohit Bommisetti',
