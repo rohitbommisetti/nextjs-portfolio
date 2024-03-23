@@ -271,10 +271,110 @@ function Page() {
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
                 className: "prose prose-neutral dark:prose-invert",
-                children: "coming soon!"
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://www.linkedin.com/company/colab-pitt",
+                        children: "CoLab Pitt"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, this),
+                    " - Community for student builders at University of Pittsburgh (2022)"
+                ]
+            }, void 0, true, {
                 fileName: "<[project]/app/work/page.tsx>",
                 lineNumber: 5,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://colinallen.dnsalias.org/Courses/2021-2022_Fall/HPS1616/",
+                        children: "Philosophy of AI"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, this),
+                    " - Course at University of Pittsburgh on AI Ethics & Philosophy (2021)"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/work/page.tsx>",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://wepool.ai",
+                        children: "WePool AI"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    " - Increased COVID testing capacity with AI (2020)"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/work/page.tsx>",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://inspiritai.com",
+                        children: "Inspirit AI"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this),
+                    " - AI bootcamp in three cities across India with Stanford PhD students (2019)"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/work/page.tsx>",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://devpost.com/software/safefront",
+                        children: "SafeFront"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    " - next-gen 911 response system (2018)"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/work/page.tsx>",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://devpost.com/software/safefront",
+                        children: "Iris"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/work/page.tsx>",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    " - solving driver distraction with AI (2017)"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/work/page.tsx>",
+                lineNumber: 20,
                 columnNumber: 7
             }, this)
         ]
