@@ -29,7 +29,7 @@ export default function Page() {
       </p>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        In my free time, I enjoy <a href="https://curius.app/rohit-bommisetti">reading longform essays</a>, building fun <a href="/work">projects</a>, trying my culinary <a href="https://youtu.be/t_gVCzF4AyU?si=bZ-I0uHUo19dgPU8">skills</a>, learning Muay Thai, and lifting heavy weights. 
+        In my free time, I enjoy <a href="https://curius.app/rohit-bommisetti">breaking longform essays</a>, building fun <a href="/work">projects</a>, making clothing inspired by <a href="https://instagram.com/karuna.studios">Indian textiles</a>, making espressos, and lifting heavy weights. 
         </p>
       </div>
       <div className="prose prose-neutral dark:prose-invert">
