@@ -11,16 +11,21 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://bommisetti.org'),
   title: {
     default: 'Rohit Bommisetti',
-    template: '%s | Lee Robinson',
+    template: '%s | Rohit Bommmisetti',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
+    url: 'https://bommisetti.org',
+    type: 'website',
     title: 'Rohit Bommisetti',
     description: 'Software engineer who loves to build products.',
-    url: 'https://bommisetti.org',
-    siteName: 'Rohit Bommisetti',
-    locale: 'en_US',
-    type: 'website',
+    images: [
+      {
+        url: 'https://opengraph.b-cdn.net/production/documents/a58acde8-2896-4356-be32-895df61b63c2.jpg?token=wk0STYgxx0Gd12jaMGDccu9JLY8CXQ50oh_1_P0Iw3Q&height=900&width=1200&expires=33247162807',
+        width: 1200,
+        height: 900,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -34,8 +39,12 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
     card: 'summary_large_image',
+    title: 'Rohit Bommisetti',
+    description: 'Software engineer who loves to build products.',
+    images: [
+      'https://opengraph.b-cdn.net/production/documents/a58acde8-2896-4356-be32-895df61b63c2.jpg?token=wk0STYgxx0Gd12jaMGDccu9JLY8CXQ50oh_1_P0Iw3Q&height=900&width=1200&expires=33247162807',
+    ],
   },
   verification: {
     google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
