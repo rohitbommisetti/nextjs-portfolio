@@ -341,7 +341,7 @@ function Page() {
                             lineNumber: 32,
                             columnNumber: 181
                         }, this),
-                        ", making espressos, and lifting heavy weights."
+                        ", brewing espressos, and lifting heavy weights."
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/app/page.tsx>",
