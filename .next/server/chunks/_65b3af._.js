@@ -292,7 +292,7 @@ function Page() {
                         lineNumber: 6,
                         columnNumber: 9
                     }, this),
-                    " - Community for student builders at University of Pittsburgh (2022)"
+                    " - community for student builders at University of Pittsburgh (2022)"
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/work/page.tsx>",
@@ -310,7 +310,7 @@ function Page() {
                         lineNumber: 9,
                         columnNumber: 9
                     }, this),
-                    " - Course at University of Pittsburgh on AI Ethics & Philosophy (2021)"
+                    " - course at University of Pittsburgh on AI Ethics & Philosophy (2021)"
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/work/page.tsx>",
@@ -328,7 +328,7 @@ function Page() {
                         lineNumber: 12,
                         columnNumber: 9
                     }, this),
-                    " - Increased COVID testing capacity with AI (2020)"
+                    " - increased COVID testing capacity with AI (2020)"
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/work/page.tsx>",
@@ -346,7 +346,7 @@ function Page() {
                         lineNumber: 15,
                         columnNumber: 9
                     }, this),
-                    " - AI bootcamp in three cities across India with Stanford PhD students (2019)"
+                    " - ai bootcamp in three cities across India with Stanford PhD students (2019)"
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/work/page.tsx>",
