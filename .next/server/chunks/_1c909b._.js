@@ -496,10 +496,99 @@ function GuestbookPage() {
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
                 className: "prose prose-neutral dark:prose-invert",
-                children: "coming soon!"
+                children: "“All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.” — Naval Ravikant"
             }, void 0, false, {
                 fileName: "<[project]/app/investments/page.tsx>",
                 lineNumber: 18,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("br", {}, void 0, false, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://anthropic.com",
+                        children: "Anthropic"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/investments/page.tsx>",
+                        lineNumber: 23,
+                        columnNumber: 7
+                    }, this),
+                    " — building the next generation of AI"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://vanta.com",
+                        children: "Vanta"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/investments/page.tsx>",
+                        lineNumber: 26,
+                        columnNumber: 7
+                    }, this),
+                    " — security and compliance for startups"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 25,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: [
+                    /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                        href: "https://www.anyscale.com/",
+                        children: "Anyscale"
+                    }, void 0, false, {
+                        fileName: "<[project]/app/investments/page.tsx>",
+                        lineNumber: 29,
+                        columnNumber: 7
+                    }, this),
+                    " — distributed computing for everyone"
+                ]
+            }, void 0, true, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 28,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("br", {}, void 0, false, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 31,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("p", {
+                className: "prose prose-neutral dark:prose-invert",
+                children: /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("i", {
+                    children: [
+                        "I'm investing through the multi-stage ",
+                        /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"]("a", {
+                            href: "https://fundrise.com/offerings/26/view",
+                            children: "Innovation Fund"
+                        }, void 0, false, {
+                            fileName: "<[project]/app/investments/page.tsx>",
+                            lineNumber: 33,
+                            columnNumber: 48
+                        }, this),
+                        ". This is an learning experiment for me to purely understand technology investing as someone that works in technology and would like to scout in the future. I'm not an accredited investor and this is not investment advice, please do your own due diligence!"
+                    ]
+                }, void 0, true, {
+                    fileName: "<[project]/app/investments/page.tsx>",
+                    lineNumber: 33,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "<[project]/app/investments/page.tsx>",
+                lineNumber: 32,
                 columnNumber: 7
             }, this)
         ]
@@ -515,18 +604,18 @@ async function GuestbookForm() {
         children: [
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$investments$2f$form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "<[project]/app/investments/page.tsx>",
-                lineNumber: 31,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$investments$2f$buttons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SignOut"], {}, void 0, false, {
                 fileName: "<[project]/app/investments/page.tsx>",
-                lineNumber: 32,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true) : /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$investments$2f$buttons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["SignIn"], {}, void 0, false, {
         fileName: "<[project]/app/investments/page.tsx>",
-        lineNumber: 35,
+        lineNumber: 48,
         columnNumber: 5
     }, this);
 }
@@ -548,19 +637,19 @@ async function GuestbookEntries() {
                         ]
                     }, void 0, true, {
                         fileName: "<[project]/app/investments/page.tsx>",
-                        lineNumber: 49,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     entry.body
                 ]
             }, void 0, true, {
                 fileName: "<[project]/app/investments/page.tsx>",
-                lineNumber: 48,
+                lineNumber: 61,
                 columnNumber: 7
             }, this)
         }, entry.id, false, {
             fileName: "<[project]/app/investments/page.tsx>",
-            lineNumber: 47,
+            lineNumber: 60,
             columnNumber: 5
         }, this));
 }
