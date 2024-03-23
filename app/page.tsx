@@ -25,7 +25,7 @@ export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">Rohit Bommisetti</h1>
       <p className="prose prose-neutral dark:prose-invert">
-      Hi! My name is Rohit, and I'm a software engineer who loves building products and communities.
+      I'm a software engineer who enjoys building products and communities.
       </p>
       <p className="prose prose-neutral dark:prose-invert">
       
