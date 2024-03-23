@@ -50,6 +50,9 @@ export const metadata: Metadata = {
     google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
     yandex: '14d2e73487fa6c71',
   },
+  icons: {
+    icon: '/app/favicon.ico', // /public path
+  },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(' ');
